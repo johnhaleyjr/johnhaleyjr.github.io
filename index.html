@@ -1,0 +1,311 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Lazy Weather - Let Your Phone Check The Weather</title>
+    <link rel="stylesheet" href="https://d2kfjaekmjmy1l.cloudfront.net/websites-public-v7e8cf2f94157.css" data-bundle="websites-public">
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://lh3.googleusercontent.com/cpRhk6Ki-JxaVv_S1364_Rni59uZ5QAH-C8eYA2dWRphbmGTa5LQwzPQUTKfPn1qBuPeyUVTCOjoZ5VVqy6rAwkacebdOg" rel="shortcut icon" type="image/x-icon">
+
+<meta name="description" content="The Manage By Exception Weather App">
+<meta name="keywords" content="weather,app,ios,manage by exception,notifications,custom equations">
+<meta name="author" content="John Haley">
+
+<!-- Facebook -->
+<meta property="og:site_name" content="Lazy Weather">
+<meta property="og:title" content="Let Your Phone Check The Weather">
+<meta property="og:description" content="The Manage By Exception Weather App">
+<meta property="og:url" content="http://www.lazy-planet.com">
+<meta property="og:image" content="https://lh3.googleusercontent.com/cpRhk6Ki-JxaVv_S1364_Rni59uZ5QAH-C8eYA2dWRphbmGTa5LQwzPQUTKfPn1qBuPeyUVTCOjoZ5VVqy6rAwkacebdOg">
+<meta property="og:type" content="website">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lazy Weather - Let Your Phone Check The Weather">
+<meta name="twitter:description" content="The Manage By Exception Weather App">
+<meta name="twitter:image:src" content="https://lh3.googleusercontent.com/cpRhk6Ki-JxaVv_S1364_Rni59uZ5QAH-C8eYA2dWRphbmGTa5LQwzPQUTKfPn1qBuPeyUVTCOjoZ5VVqy6rAwkacebdOg">
+<meta name="twitter:domain" content="http://www.lazy-planet.com">
+<meta name="twitter:app:name:iphone" content="Lazy Weather">
+<meta name="twitter:app:id:iphone" content="">
+<meta name="twitter:app:name:ipad" content="Lazy Weather">
+<meta name="twitter:app:id:ipad" content="">
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Raleway:400,100,200,300,500,600,700,800,900" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+    #public-landing-page .container {
+      font-family: 'Open Sans', sans-serif !important;
+    }
+    #public-landing-page.template-1 .hero,
+    #public-landing-page.template-2 .hero,
+    #public-landing-page.template-3 .hero,
+    #public-landing-page.template-4 .hero,
+    #public-landing-page.template-7 .hero,
+    #public-landing-page.template-8 .hero .graphic,
+    #public-landing-page.template-9 .bg-color,
+    #public-landing-page.template-9 .hero h1,
+    #public-landing-page .store-badge-white-text,
+    #public-landing-page.template-1color .hero,
+    #public-landing-page.template-2color .hero {
+      background: #303073;
+    }
+    #public-landing-page.template-5 .hero h2,
+    #public-landing-page.template-6 .hero h1,
+    #public-landing-page.template-8 .hero,
+    #public-landing-page.template-9 .hero h2,
+    #public-landing-page .hero .btn,
+    #public-landing-page .navbar .btn,
+    #public-landing-page .navbar.invert-navbar a,
+    #public-landing-page footer a,
+    #public-landing-page .benefit-header {
+      color: #303073;
+    }
+    #public-landing-page .btn.btn-primary.btn-primary-invert,
+    #public-landing-page .navbar.invert-navbar .btn.btn-primary,
+    #public-landing-page .navbar .navbar-collapse.in .btn.btn-primary,
+    #public-landing-page .navbar .navbar-toggle .icon-bar,
+    #public-landing-page .download-text {
+      color: white;
+      background-color: #303073;
+    }
+
+
+    #public-landing-page.template-1 .hero,
+    #public-landing-page.template-2 .hero,
+    #public-landing-page.template-4 .hero {
+      overflow: hidden;
+    }
+    #public-landing-page .hero .blurred-cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 1px;
+      background-image: url('https://lh3.googleusercontent.com/hR-LuvyVubngEv6wOhvaognqoRvV_cAWXOmJM8Wlxp7X_e2lQBGgbyAR6CROCx1OLwd3NnorpG9p8XOIIY4scWcFYZRH');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      -webkit-filter: blur(50px);
+      -moz-filter: blur(50px);
+      -o-filter: blur(50px);
+      -ms-filter: blur(50px);
+      filter: blur(50px);
+      margin: -60% -40% -40%;
+    }
+    #public-landing-page .hero .blurred-cover .darken {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 2px;
+      background: rgba(0,0,0,.3);
+    }
+</style>
+
+
+</head>
+<body><div id="skit-controller"><div id="public-landing-page"
+  class="
+    template-7
+    
+    
+  ">
+
+  <section class="hero">
+      <div class="bottom-shadow"></div>
+    <div class="container">
+      <nav class="navbar navbar-default
+        
+         invert-buttons
+        ">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a class="navbar-brand visible-xs" href="#">
+                <img alt="Lazy Weather" src="https://lh3.googleusercontent.com/cpRhk6Ki-JxaVv_S1364_Rni59uZ5QAH-C8eYA2dWRphbmGTa5LQwzPQUTKfPn1qBuPeyUVTCOjoZ5VVqy6rAwkacebdOg" class="app-icon">
+              </a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                  <li><a href="mailto:john.haleyjr@yahoo.com" target="_blank">Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+  
+  
+  
+  
+  
+  
+        <div class="row headernav">
+          <div class="col-sm-12">
+            <h1>  Lazy Weather
+  </h1>
+          </div>
+        </div>
+        <hr>
+        <div class="row hero-main-content">
+          <div class="hero-text-container col-sm-7 col-xs-12">
+            <h2>Let Your Phone Check The Weather</h2>
+              <p>The Manage By Exception Weather App</p>
+            
+            
+              <a href="https://docs.google.com/forms/d/17AAcCC-BljjV0g6Myjq4IodKuYv2oBv1EtpKda_OIG4/viewform" class="btn btn-primary" target="_blank">
+                Join Waiting List
+              </a>
+          </div>
+          <div class="hero-graphic-container col-sm-5 col-xs-12 text-center">
+            <img src="https://lh3.googleusercontent.com/hR-LuvyVubngEv6wOhvaognqoRvV_cAWXOmJM8Wlxp7X_e2lQBGgbyAR6CROCx1OLwd3NnorpG9p8XOIIY4scWcFYZRH" class="screenshot">
+          </div>
+        </div>
+  
+  
+  
+    </div>
+  </section>
+
+      <section class="gallery">
+        <div class="container">
+          <div class="row">
+            <p class="section-header">Screenshots of <strong>Lazy Weather</strong></p>
+            <div class="gallery-screenshots">
+                <div class="gallery-scroll-screenshot">
+                  <img src="https://lh3.googleusercontent.com/hR-LuvyVubngEv6wOhvaognqoRvV_cAWXOmJM8Wlxp7X_e2lQBGgbyAR6CROCx1OLwd3NnorpG9p8XOIIY4scWcFYZRH">
+                </div>
+                <div class="gallery-scroll-screenshot">
+                  <img src="https://lh3.googleusercontent.com/84Ssxqmmb-W7yKIhDJ3Nh97oKbl7Z2tl8wEo29fSVQ0uYJ6QHpMAvgoY4V5H4jrUhNgG7aoo_eY66ex_ybTlR8xWN5VCQA">
+                </div>
+                <div class="gallery-scroll-screenshot">
+                  <img src="https://lh3.googleusercontent.com/c7r_JOfHwdx7XKv1A3zFzp1qQzwVO44mvaBebcZK1GrPKz9XCn4zMSpszop73EEFPJ5iY0DqqfRFH8ZvHVfOUz3POJtNZ2k">
+                </div>
+                <div class="gallery-scroll-screenshot">
+                  <img src="https://lh3.googleusercontent.com/5GbSbMsCJYBABaItlL4Z87aPG-d7wPTzd_SyBMLzoAvH7ag51IDH7PEMFYrT1sPXbLbDFKbuA3aGaRDx56K0753SGPPe4w">
+                </div>
+                <div class="gallery-scroll-screenshot">
+                  <img src="https://lh3.googleusercontent.com/Caw1wjJpJtevWeCS4-JZZUjoflFdYxrD217My8rbokNIcLzWz0J9BNJ7TDflu3eHdTMw6jAaWoq_1K9vwfsUrDZKhuNs9w">
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section class="description">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 col-xs-12 pull-right">
+                <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                  <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <img src="https://lh3.googleusercontent.com/hR-LuvyVubngEv6wOhvaognqoRvV_cAWXOmJM8Wlxp7X_e2lQBGgbyAR6CROCx1OLwd3NnorpG9p8XOIIY4scWcFYZRH" class="screenshot" alt="Screenshot of Lazy Weather">
+                      </div>
+                      <div class="item">
+                        <img src="https://lh3.googleusercontent.com/84Ssxqmmb-W7yKIhDJ3Nh97oKbl7Z2tl8wEo29fSVQ0uYJ6QHpMAvgoY4V5H4jrUhNgG7aoo_eY66ex_ybTlR8xWN5VCQA" class="screenshot" alt="Screenshot of Lazy Weather">
+                      </div>
+                      <div class="item">
+                        <img src="https://lh3.googleusercontent.com/c7r_JOfHwdx7XKv1A3zFzp1qQzwVO44mvaBebcZK1GrPKz9XCn4zMSpszop73EEFPJ5iY0DqqfRFH8ZvHVfOUz3POJtNZ2k" class="screenshot" alt="Screenshot of Lazy Weather">
+                      </div>
+                      <div class="item">
+                        <img src="https://lh3.googleusercontent.com/5GbSbMsCJYBABaItlL4Z87aPG-d7wPTzd_SyBMLzoAvH7ag51IDH7PEMFYrT1sPXbLbDFKbuA3aGaRDx56K0753SGPPe4w" class="screenshot" alt="Screenshot of Lazy Weather">
+                      </div>
+                      <div class="item">
+                        <img src="https://lh3.googleusercontent.com/Caw1wjJpJtevWeCS4-JZZUjoflFdYxrD217My8rbokNIcLzWz0J9BNJ7TDflu3eHdTMw6jAaWoq_1K9vwfsUrDZKhuNs9w" class="screenshot" alt="Screenshot of Lazy Weather">
+                      </div>
+                  </div>
+                </div>
+          </div>
+          <div class="col-sm-7 col-xs-12 description-text">
+            <p>A weather app that doesn&#x27;t display the weather?!<br><br>Ask yourself, when you are checking the weather, what I you trying to gain? You may think you want to know the temperature or the chance of rain, but you&#x27;d be wrong. What you really want to know, is if its going to be too cold and need to bring a jacket, or if you should cancel your plans to go rock climbing. So what you&#x27;re really looking for is to know if you need to do those things based on some criteria and not really some set of numbers. Besides, we&#x27;re all busy (and lazy), and don&#x27;t have time to check the weather on our phones, for things we want to do, 5 days in advance. <br><br>Let this app do all that for you. Simply enter the event, location, date, and possibly the condition you want to be notified about (by default anytime the chance of rain is greater than 75%), and the app will notify you if its going to rain or if its too cold. <br><br><br>Don&#x27;t allow yourself to check the weather every few hours to see if you need to change plans. The Lazy Weather app will periodically check the weather forecast for you, and if it looks like you need to change plans, it will notify you. Otherwise, the app won&#x27;t bug you and you can assume your plans are fine.<br><br><br><br><br>Weather Data powered by Forecast.io</p>
+            
+            
+              <a href="https://docs.google.com/forms/d/17AAcCC-BljjV0g6Myjq4IodKuYv2oBv1EtpKda_OIG4/viewform" class="btn btn-primary btn-primary-invert" target="_blank">
+                Join Waiting List
+              </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-nav col-xs-12 col-sm-8">
+            <a href="mailto:john.haleyjr@yahoo.com" target="_blank">Support</a>
+  
+        </div>
+        <div class="launchkit-promo col-xs-12 col-sm-4">
+          <img src="https://d2kfjaekmjmy1l.cloudfront.net/images/icon-v8d70a510a2c9.png">
+          <a href="https://launchkit.io/websites/?utm_campaign=Websites%20Footer&amp;utm_medium=referral&amp;utm_source=e5xFbsebocg" target="_blank">Website by LaunchKit</a>
+        </div>
+      </div>
+    </footer>
+
+</div>
+
+  <!-- Google Analytics tracking code -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-59588721-4', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</div>
+  <script>
+    window.skit = (function() {
+      var objects = {};
+      var modules = {};
+      function define(resourcePath, deps, fn) {
+        modules[resourcePath] = {deps: deps, fn: fn};
+      }
+      function load(resourcePath) {
+        if (!(resourcePath in objects)) {
+          if (resourcePath in modules) {
+            var module = modules[resourcePath];
+            var args = [];
+            for (var i = 0; i < module.deps.length; i++) {
+              args.push(load(module.deps[i]));
+            }
+            objects[resourcePath] = module.fn.apply(window, args);
+          } else {
+            objects[resourcePath] = null;
+          }
+        }
+        return objects[resourcePath];
+      }
+      return {define: define, load: load};
+    })();
+  </script>
+    <script src="https://d2kfjaekmjmy1l.cloudfront.net/websites-public-v6798139563f5.js" data-bundle="websites-public"></script>
+  <script>
+    (function() {
+        var netproxy = skit.load("skit.platform.netproxy:js");
+          netproxy.__register__("lk", {"name":"lk","csrfToken":"/9dvVIGzvhjZ9hFkXhB3Iw=="});
+
+      var ControllerKlass = skit.load("public_hosted.HostedWebsite:js");
+      var controller = new ControllerKlass({});
+
+      var controllerProperties = {"domain":"www.lazy-planet.com","website":{"facebookLink":"","domain":"www.lazy-planet.com","termsLink":"","appName":"Lazy Weather","blogLink":"","supportLink":"mailto:john.haleyjr@yahoo.com","images":{"screenshots":{"iPhone":[{"url":"https://lh3.googleusercontent.com/hR-LuvyVubngEv6wOhvaognqoRvV_cAWXOmJM8Wlxp7X_e2lQBGgbyAR6CROCx1OLwd3NnorpG9p8XOIIY4scWcFYZRH","imageId":"QROSzb5T6LM"},{"url":"https://lh3.googleusercontent.com/84Ssxqmmb-W7yKIhDJ3Nh97oKbl7Z2tl8wEo29fSVQ0uYJ6QHpMAvgoY4V5H4jrUhNgG7aoo_eY66ex_ybTlR8xWN5VCQA","imageId":"r_Y7qvscHog"},{"url":"https://lh3.googleusercontent.com/c7r_JOfHwdx7XKv1A3zFzp1qQzwVO44mvaBebcZK1GrPKz9XCn4zMSpszop73EEFPJ5iY0DqqfRFH8ZvHVfOUz3POJtNZ2k","imageId":"15QQ1QkPikY"},{"url":"https://lh3.googleusercontent.com/5GbSbMsCJYBABaItlL4Z87aPG-d7wPTzd_SyBMLzoAvH7ag51IDH7PEMFYrT1sPXbLbDFKbuA3aGaRDx56K0753SGPPe4w","imageId":"lexEPRCvhk8"},{"url":"https://lh3.googleusercontent.com/Caw1wjJpJtevWeCS4-JZZUjoflFdYxrD217My8rbokNIcLzWz0J9BNJ7TDflu3eHdTMw6jAaWoq_1K9vwfsUrDZKhuNs9w","imageId":"VWvxOvnOp1Y"}]},"icon":{"url":"https://lh3.googleusercontent.com/cpRhk6Ki-JxaVv_S1364_Rni59uZ5QAH-C8eYA2dWRphbmGTa5LQwzPQUTKfPn1qBuPeyUVTCOjoZ5VVqy6rAwkacebdOg","id":"sZG8uTBwdGg"}},"keywords":"weather,app,ios,manage by exception,notifications,custom equations","googleAnalyticsId":"","font":"Open Sans","shortDescription":"The Manage By Exception Weather App","id":"e5xFbsebocg","twitterLink":"","privacyLink":"","author":"John Haley","tagline":"Let Your Phone Check The Weather","itunesId":"","template":"7","longDescription":"A weather app that doesn\u0027t display the weather?!\n\nAsk yourself, when you are checking the weather, what I you trying to gain? You may think you want to know the temperature or the chance of rain, but you\u0027d be wrong. What you really want to know, is if its going to be too cold and need to bring a jacket, or if you should cancel your plans to go rock climbing. So what you\u0027re really looking for is to know if you need to do those things based on some criteria and not really some set of numbers. Besides, we\u0027re all busy (and lazy), and don\u0027t have time to check the weather on our phones, for things we want to do, 5 days in advance. \n\nLet this app do all that for you. Simply enter the event, location, date, and possibly the condition you want to be notified about (by default anytime the chance of rain is greater than 75%), and the app will notify you if its going to rain or if its too cold. \n\n\nDon\u0027t allow yourself to check the weather every few hours to see if you need to change plans. The Lazy Weather app will periodically check the weather forecast for you, and if it looks like you need to change plans, it will notify you. Otherwise, the app won\u0027t bug you and you can assume your plans are fine.\n\n\n\n\nWeather Data powered by Forecast.io","playStoreId":"","waitingListLink":"https://docs.google.com/forms/d/17AAcCC-BljjV0g6Myjq4IodKuYv2oBv1EtpKda_OIG4/viewform","primaryColor":"#303073","loginLink":"","frameScreenshots":"no"}};
+      for (var k in controllerProperties) {
+        controller[k] = controllerProperties[k];
+      }
+
+      controller.recursiveLoad();
+      controller.recursiveReady();
+    })();
+  </script>
+</body>
